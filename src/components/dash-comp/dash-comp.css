@@ -1,0 +1,127 @@
+* {
+  box-sizing: border-box;
+}
+
+body {
+  /* position: relative; */
+  font-family: sans-serif;
+  /* background-color: #181c1f; */
+  color: #bdd1d4;
+  margin: 2rem;
+}
+
+.tabs {
+  max-width: 110rem;
+  margin-bottom: 50px;
+  overflow: hidden;
+}
+
+.tabs menu {
+  display: absolute;
+  margin-top: 50px;
+  padding: 0;
+  display: flex;
+  /* flex-direction: row; */
+  gap: 0.45rem;
+}
+
+.tabs button {
+  width: 125px;
+  height: 70px;
+  font-size: 17px;
+  background-color: none;
+  text-align: center;
+  border: none;
+  background: white;
+  /* border-bottom-color: #48d9f3; */
+  color: orange;
+  border-radius: 0;
+  padding: 5px;
+  cursor: pointer;
+  transition: all 0.2s ease-out;
+  margin-left: 15px;
+  margin-right: 4px;
+  margin-bottom: 5px;
+  z-index: 3;
+}
+
+.tabs button:hover {
+  background: #fbbf77;
+  color: #8b4000;
+  transition: 0.5s ease-in-out;
+}
+.tabs button.active {
+  background: linear-gradient(to bottom right, #ffce00, #fe4880);
+  color: white;
+  border: 3px solid white;
+}
+
+#tab-content {
+  position: absolute;
+  background-color: #fbbf77;
+  /* background: green; */
+  color: orange;
+  /* border-radius: 15px; */
+  width: 1182.5px;
+  height: 530px;
+  padding: 2rem;
+  /* border: 10px solid brown; */
+  margin-top: 2.5px;
+  margin-left: 15px;
+}
+
+#tab-content li {
+  list-style: disc;
+  font-size: 25px;
+  font-weight: 400;
+  margin-bottom: 0.5rem;
+  margin-left: 20px;
+  color: #8b4000;
+  /* color: white; */
+}
+
+.card-iframe {
+  color: #000;
+  background: peachpuff;
+}
+
+.admin-dashboard {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+  /* margin: 2, 0px; */
+  column-gap: -15px;
+}
+
+.card {
+  position: relative;
+  width: 275px;
+  height: 200px;
+  /* margin: 0px; */
+  border: 3px solid #ccc;
+  /* border-radius: 0px; */
+  /*overflow: hidden; */
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.7);
+  margin-top: 120px;
+}
+
+.card-content {
+  padding: 45px;
+}
+
+.card-title {
+  display: inline-block;
+  position: absolute;
+  font-size: 1.4rem;
+  /* margin-bottom: -20px; */
+  margin-top: -80px;
+  margin-left: -50px;
+  color: brown;
+}
+
+.card-text {
+  font-size: 20px;
+  margin-left: -40px;
+  margin-top: -30px;
+  color: #666;
+}

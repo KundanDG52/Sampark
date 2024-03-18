@@ -1,0 +1,19 @@
+/* styles.css */
+.iframe-card-grid {
+  margin: 60px;
+  top: 50px;
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  gap: 16px;
+}
+
+.iframe-card {
+  /* border: 1px solid #ccc; */
+  padding: 16px;
+  text-align: center;
+}
+
+.iframe-card iframe {
+  width: 100%;
+  height: 225px; /* Adjust the height as needed */
+}

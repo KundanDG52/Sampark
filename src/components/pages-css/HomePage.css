@@ -1,0 +1,122 @@
+body {
+  overflow: hidden;
+}
+
+.home-container {
+  background-color: transparent;
+}
+
+.ld-fancy-heading {
+  text-align: center;
+  margin: 20px 0;
+  perspective: 1000px; /* Add perspective for 3D effect */
+}
+
+.h2.text-white {
+  position: relative;
+  display: inline-block;
+  transform-style: preserve-3d;
+  animation: rotateUp 10s infinite linear; /* Adjust the duration as needed */
+}
+
+.home-img {
+  position: relative;
+  padding-top: 0px;
+  background-size: cover;
+  width: 100%;
+  height: 90%;
+}
+
+.ld-fh-txt {
+  position: absolute;
+  top: 8rem;
+  left: 3rem;
+  color: white;
+  font-size: 5rem;
+  font-weight: 800;
+  margin-bottom: 3rem;
+}
+
+.your-emoji-class {
+  display: inline-block;
+  transform: rotate(180deg);
+}
+
+.keyword {
+  padding-bottom: 1rem;
+  opacity: 1;
+  font-size: 4rem;
+  font-weight: 700;
+  color: white;
+  transform-origin: 50% 100%; /* Set the transform origin to bottom center */
+}
+
+/* .keyword.active {
+  opacity: 1;
+} */
+
+@keyframes rotateUp {
+  0%,
+  100% {
+    transform: rotateX(0deg);
+  }
+
+  25%,
+  75% {
+    transform: rotateX(90deg);
+  }
+
+  50% {
+    transform: rotateX(180deg);
+  }
+}
+
+.img-svg {
+  color: white;
+  background-color: transparent;
+  width: 4rem;
+  height: 4rem;
+  margin-top: 1rem;
+  padding-top: 0.5rem;
+  margin-left: 0.5rem;
+}
+
+.seva {
+  font-weight: 600;
+  transition: ease-in-out 0.45s;
+}
+
+.seva:hover {
+  cursor: pointer;
+  transform: translateY(-0.5rem);
+}
+
+.smruti {
+  font-weight: 600;
+  transition: ease-in-out 0.45s;
+}
+
+.smruti:hover {
+  cursor: pointer;
+  transform: translateY(-2rem);
+}
+
+.suhradhbhav {
+  font-weight: 600;
+  transition: ease-in-out 0.45s;
+}
+
+.suhradhbhav:hover {
+  cursor: pointer;
+  transform: translateY(0.5rem);
+}
+
+.swadharm {
+  font-weight: 600;
+  transition: ease-in-out 0.45s;
+}
+
+.swadharm:hover {
+  cursor: pointer;
+  transform: translateY(1.5rem);
+}

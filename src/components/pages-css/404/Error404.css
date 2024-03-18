@@ -1,0 +1,181 @@
+/* Default styles for screens larger than 768px */
+.container {
+  position: relative;
+  background-color: white;
+  width: 100vw;
+  height: 100vh;
+}
+
+.page_404 img {
+  width: 100%;
+  height: 100%;
+}
+
+.four_zero_four_bg {
+  background-image: url(https://cdn.dribbble.com/users/285475/screenshots/2083086/dribbble_1.gif);
+  height: 550px;
+  width: 100%px;
+  background-position: center;
+  background-repeat: no-repeat;
+  z-index: 2;
+}
+
+.four_zero_four_bg h1 {
+  font-size: 100px;
+  color: orange;
+  text-align: center;
+}
+
+.h2 {
+  font-size: 30px;
+  font-weight: 700;
+  text-align: center;
+  color: orange;
+  margin-bottom: 20px;
+}
+
+.link_404 {
+  color: #fff;
+  font-size: 1.4rem;
+  margin-top: 15px;
+  margin-left: 42%;
+  font-weight: 400;
+  padding: 10px 20px;
+  background: orange;
+  padding: 0.8rem 3rem;
+  outline: none;
+  border: none;
+  border-radius: 6px;
+  transition: ease-in 0.3s;
+}
+.link_404:hover {
+  background-color: orangered;
+  cursor: pointer;
+}
+
+#js {
+  color: orange;
+  margin-top: -1rem;
+  text-align: center;
+  font-size: 3rem;
+  font-weight: 400;
+  margin-bottom: 10px;
+}
+
+.contant_box_404 {
+  margin-top: -50px;
+}
+
+/* Media query for screens smaller than 1500px */
+@media only screen and (max-width: 1500px) {
+  .container {
+    width: 100%; /* Adjust the width as needed */
+    max-width: 100%; /* Ensure it doesn't exceed the viewport width */
+    margin: 0 auto; /* Center the container horizontally */
+    padding: 10px; /* Add padding as needed */
+    box-sizing: border-box; /* Include padding and border in the total width */
+    /* Add more properties as necessary */
+  }
+
+  .four_zero_four_bg {
+    height: 500px; /* Adjust the height as needed */
+  }
+
+  .four_zero_four_bg h1 {
+    font-size: 60px; /* Adjust the font size as needed */
+  }
+
+  .h2 {
+    font-size: 1.6rem; /* Adjust the font size as needed */
+    margin-bottom: 8px; /* Adjust the margin as needed */
+  }
+
+  .link_404 {
+    right: 40%; /* Adjust the positioning as needed */
+    font-size: 0.9rem; /* Adjust the font size as needed */
+  }
+
+  #js {
+    font-size: 3rem; /* Adjust the font size as needed */
+    margin-top: -5rem; /* Adjust the margin as needed */
+    margin-bottom: 6px; /* Adjust the margin as needed */
+  }
+
+  .contant_box_404 {
+    margin-top: -20px; /* Adjust the margin as needed */
+  }
+
+  /* Add more rules for other elements if necessary */
+}
+
+/* Media query for screens smaller than 1000px */
+@media only screen and (max-width: 1000px) {
+  .container {
+    width: 100%; /* Adjust the width as needed */
+    max-width: 100%; /* Ensure it doesn't exceed the viewport width */
+    margin: 0 auto; /* Center the container horizontally */
+    padding: 10px; /* Add padding as needed */
+    box-sizing: border-box; /* Include padding and border in the total width */
+    /* Add more properties as necessary */
+  }
+
+  .four_zero_four_bg {
+    height: 500px; /* Adjust the height as needed */
+  }
+
+  .four_zero_four_bg h1 {
+    font-size: 60px; /* Adjust the font size as needed */
+  }
+
+  .h2 {
+    font-size: 1.6rem; /* Adjust the font size as needed */
+    margin-bottom: 8px; /* Adjust the margin as needed */
+  }
+
+  .link_404 {
+    right: 40%; /* Adjust the positioning as needed */
+    font-size: 0.9rem; /* Adjust the font size as needed */
+  }
+
+  #js {
+    font-size: 3rem; /* Adjust the font size as needed */
+    margin-top: -5rem; /* Adjust the margin as needed */
+    margin-bottom: 6px; /* Adjust the margin as needed */
+  }
+
+  .contant_box_404 {
+    margin-top: -20px; /* Adjust the margin as needed */
+  }
+
+  /* Add more rules for other elements if necessary */
+}
+
+/* Media query for screens smaller than 768px */
+@media only screen and (max-width: 768px) {
+  .four_zero_four_bg {
+    height: 475px; /* Adjust as needed for smaller screens */
+  }
+
+  .four_zero_four_bg h1 {
+    font-size: 5rem; /* Adjust as needed for smaller screens */
+  }
+
+  .h2 {
+    font-size: 1.8rem; /* Adjust as needed for smaller screens */
+    margin-bottom: 15px; /* Adjust as needed for smaller screens */
+  }
+
+  .link_404 {
+    right: 38%;
+    font-size: 1.2rem; /* Adjust as needed for smaller screens */
+  }
+
+  #js {
+    font-size: 3rem; /* Adjust as needed for smaller screens */
+    margin-top: -2rem; /* Adjust as needed for smaller screens */
+  }
+
+  .contant_box_404 {
+    margin-top: -20px; /* Adjust as needed for smaller screens */
+  }
+}

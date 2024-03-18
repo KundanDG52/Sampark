@@ -1,0 +1,167 @@
+#container {
+  position: fixed;
+  margin: 0;
+  padding: 0;
+  width: 100%;
+  height: 5.4rem;
+  border-radius: 0px;
+  background: transparent;
+  /* border-bottom: 2px solid chocolate; */
+  z-index: 4;
+}
+
+.section-header {
+  display: grid;
+  grid-template-columns: 0.5fr 1.5fr 5fr 1fr 1fr;
+  grid-gap: 2rem;
+  border-radius: 0px;
+  width: 100%;
+}
+
+/* HEADING STYLES STARTS HERE*/
+.heading {
+  padding: 10px 20px;
+}
+
+.main-heading {
+  font-size: 3rem;
+  color: white;
+  font-weight: 800;
+  /* font-style: italic; */
+  margin-left: -2.6rem;
+}
+
+/* HEADING STYLES ENDS HERE */
+
+/* NAVLIST-ITEM STYLES STARTS HERE */
+.dashboard-list {
+  display: flex;
+  flex-direction: row;
+  gap: 2rem;
+  text-align: center;
+  align-items: center;
+  justify-content: center;
+}
+
+.navbar-item {
+  list-style-type: none;
+  font-weight: 500;
+  color: rgb(234, 231, 231);
+  font-size: 1.4rem;
+}
+
+.navbar-item:hover {
+  cursor: pointer;
+  color: white;
+}
+
+.link-1 {
+  transition: 0.3s ease;
+  /* color: chocolate; */
+  /* color: #ffffff; */
+  text-decoration: none;
+  /* border-top: 2px solid chocolate;
+  border-bottom: 2px solid chocolate; */
+  transition: 0.3s ease-in-out;
+  padding: 28px 10px 29px 10px;
+}
+.link-1:hover {
+  /* border-top: 2px solid #ffffff;
+  border-bottom: 2px solid #ffffff; */
+  color: white;
+  /* background-color: rgb(202, 115, 52); */
+  padding: 28px 10px 29px 10px;
+
+  scale: 1.1;
+}
+
+.navbar-item.active {
+  /* border-right: 3px solid white;
+  border-left: 3px solid white; */
+  /* background-color: white; */
+  color: orange;
+  /* background-color: rgb(202, 115, 52); */
+  font-weight: 600;
+  padding-top: 28px;
+  padding-bottom: 29px;
+  padding-left: 10px;
+  padding-right: 10px;
+  scale: 1.15;
+  /* border-bottom: 2px solid chocolate; */
+}
+
+.logo-img {
+  border-radius: 50%;
+  padding: 0.5rem;
+}
+.logo-img:hover {
+  cursor: pointer;
+}
+
+/* NAVLIST-ITEM STYLES  END HERE*/
+
+/* BUTTON STYLES START HERE*/
+#logout-button {
+  position: relative;
+  padding: 0 10px;
+  margin: 15px 15px;
+  margin-left: -1rem;
+  font-size: 1.2rem;
+  border-radius: 6px;
+  align-items: center;
+  border: none;
+  color: chocolate;
+  background-color: white;
+  transition: ease-in-out 0.45s;
+}
+#logout-button:hover {
+  transform: translateY(-0.2rem);
+  color: orangered;
+  box-shadow: 3px 3px 0px 0px #333;
+}
+
+#logout-btn-icon {
+  position: absolute;
+  align-items: center;
+  padding: 6px;
+  font-size: 2.1rem;
+  margin: 1px 2px;
+  top: 10px;
+  left: 5px;
+  color: white;
+  background-color: chocolate;
+  border-radius: 6px;
+}
+#logout-btn-icon:hover {
+  scale: 1.1;
+}
+
+#logout-button:hover,
+#logout-btn-icon:hover {
+  cursor: pointer;
+}
+
+/* ADMIN USER */
+.login-user {
+  /* position: absolute; */
+  font-size: 1rem;
+  font-weight: 500;
+  border: none;
+  border-radius: 1rem;
+  margin-bottom: 15px;
+  margin-top: 15px;
+  margin-left: 5px;
+  margin-right: 5px;
+  padding: 0 10px;
+  border-radius: 6px;
+  transition: ease-in-out 0.25s;
+  color: #666;
+}
+.login-user:hover {
+  font-weight: 600;
+  cursor: pointer;
+  /* scale: 1.1; */
+  color: #000;
+}
+
+/* BUTTON STYLES ENDS HERE */

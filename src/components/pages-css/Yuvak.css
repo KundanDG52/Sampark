@@ -1,0 +1,517 @@
+@import url("https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap");
+
+body {
+  margin: 0;
+  padding: 0;
+  font-family: "Montserrat", sans-serif;
+  box-sizing: border-box;
+}
+
+.report-btn {
+  position: absolute;
+  font-size: 1.6rem;
+  top: 90px;
+  left: 1225px;
+  font-weight: 300;
+  border: none;
+  color: chocolate;
+  background-color: whitesmoke;
+  padding: 8px 16px;
+  border-radius: 0.8rem;
+}
+
+.report-btn:hover {
+  cursor: pointer;
+}
+
+.three {
+  background: whitesmoke;
+  /* border: 4px solid #e4a13d; */
+  transition: all 0.5s;
+  transition-timing-function: cubic-bezier(0.5, 3, 0, 1);
+}
+
+.three:hover {
+  transform: scale(1.1, 1.1);
+}
+
+.edit-yuvak {
+  cursor: pointer;
+  /* margin: 5px 2.5px; */
+  padding: 0px;
+  margin: 0px;
+  cursor: pointer;
+  font-weight: 500;
+  /* padding: 0px; */
+  border-radius: 15px;
+  font-size: 0.8rem;
+  border: none;
+  color: white;
+  background: transparent;
+  transition: all 0.25s ease;
+}
+
+.edit-yuvak:hover {
+  transform: translateY(-5px);
+  box-shadow: 0 10px 20px -10px rgba(24, 90, 219, 0.6);
+}
+
+.yuvak {
+  /* background-image: linear-gradient(to bottom right, #ffce00, #fe4880); */
+  position: relative;
+}
+
+.primaryBtn {
+  /* margin: 10px 5px; */
+  cursor: pointer;
+  font-weight: 500;
+  /* padding: 7.5px 15px; */
+  border-radius: 15px;
+  font-size: 0.8rem;
+  border: none;
+  color: white;
+  background: transparent;
+  transition: all 0.25s ease;
+  margin: 0px;
+  padding: 0px;
+}
+
+.primaryBtn:hover {
+  transform: translateY(-5px);
+  box-shadow: 0 10px 20px -10px rgba(24, 90, 219, 0.6);
+}
+
+.section-yuvak {
+  /* display: flex; */
+  /* flex-direction: row; */
+  position: absolute;
+  margin-top: -715px;
+  margin-left: 285px;
+  width: 100vw;
+  height: 100vh;
+  border: 5px solid orange;
+  /* border-radius: 20px; */
+  /* background: white; */
+  background-image: linear-gradient(to bottom right, #ffce00, #fe4880);
+}
+
+.yuvak-heading {
+  position: absolute;
+  display: inline;
+  color: white;
+  background: orange;
+  z-index: 2;
+  padding: 15px;
+  border: 3px solid white;
+  /* border-radius: 10px; */
+  margin-top: -15px;
+  margin-left: 25px;
+  align-items: center;
+  font-size: 40px;
+  font-weight: 500;
+  background-image: linear-gradient(to bottom right, #ffce00, #fe4880);
+}
+
+.form-outer {
+  position: absolute;
+  margin-top: 73.5px;
+  margin-left: 27.5px;
+  width: 1165px;
+  height: 87vh;
+  background: white;
+  border: 1.75px solid #000;
+  /* border-radius: 25px; */
+}
+
+.reg-form {
+  color: #c04000;
+  margin-left: 365px;
+  margin-top: 10px;
+  font-size: 26px;
+  font-weight: 400;
+}
+
+.form-inner-1 {
+  display: flex;
+  flex-direction: column;
+  position: absolute;
+  margin-top: 15px;
+  margin-left: 20px;
+  width: 98%;
+  /* height: 95%; */
+  border-radius: 20px;
+  /* background: white; */
+}
+
+/* .form-group {
+  display: flex;
+  flex-direction: column;
+} */
+
+#delete-col {
+  padding: 2px;
+}
+
+form::after {
+  background-image: none;
+}
+
+.form-label {
+  margin-bottom: -10px;
+  margin-left: -10px;
+  padding: 10px;
+  color: #cc7722;
+  font-size: 20px;
+  font-weight: 500;
+}
+
+form .form-input {
+  padding: 2px;
+  display: block;
+  position: absolute;
+  font-size: 16px;
+  border-radius: 4px;
+  background: #ffff99;
+  /* width: 20%; */
+  border: 1px solid #ccc;
+  /* color: white; */
+  transition: 0.35s ease-in-out;
+}
+
+.form-input:focus {
+  background: lightgrey;
+}
+
+form .form-input:hover {
+  cursor: auto;
+  font-size: 18px;
+}
+
+.input-1 {
+  position: absolute;
+  color: #444;
+  margin-top: 10px;
+  margin-left: 310px;
+  width: 15%;
+}
+
+.input-2 {
+  position: absolute;
+  color: #444;
+  margin-top: 45px;
+  margin-left: 310px;
+  width: 15%;
+}
+
+.input-3 {
+  position: absolute;
+  color: #444;
+  margin-top: 80px;
+  margin-left: 310px;
+  width: 18%;
+}
+
+.input-4-1 {
+  position: absolute;
+  color: #444;
+  margin-top: 115px;
+  margin-left: 310px;
+  width: 13%;
+}
+.input-4-2 {
+  position: absolute;
+  color: #444;
+  margin-top: 115px;
+  margin-left: 465px;
+  width: 13%;
+}
+.input-4-3 {
+  position: absolute;
+  color: #444;
+  margin-top: 115px;
+  margin-left: 620px;
+  width: 13%;
+}
+
+.input-5 {
+  position: absolute;
+  color: #444;
+  margin-top: 150px;
+  margin-left: 310px;
+  width: 13%;
+}
+
+.input-6 {
+  position: absolute;
+  color: #444;
+  margin-top: 185px;
+  margin-left: 310px;
+  width: 13%;
+  cursor: pointer;
+}
+
+.input-7-1 {
+  position: absolute;
+  color: #444;
+  margin-top: 220px;
+  margin-left: 310px;
+}
+.input-7-2 {
+  position: absolute;
+  color: #444;
+  margin-top: 220px;
+  margin-left: 375px;
+}
+.input-7-3 {
+  position: absolute;
+  color: #444;
+  margin-top: 220px;
+  margin-left: 465px;
+  width: 6%;
+  padding: 3px;
+}
+
+.input-8-1 {
+  position: absolute;
+  color: #444;
+  margin-top: 250px;
+  width: 12%;
+  margin-left: 310px;
+}
+.input-8-2 {
+  position: absolute;
+  color: #444;
+  margin-top: 250px;
+  width: 8%;
+  margin-left: 455px;
+}
+.input-8-3 {
+  position: absolute;
+  color: #444;
+  margin-top: 250px;
+  margin-left: 552.5px;
+  width: 7%;
+  padding: 3px;
+}
+
+.input-8-4 {
+  position: absolute;
+  color: #444;
+  margin-top: 280px;
+  width: 7%;
+  margin-left: 310px;
+}
+.input-8-5 {
+  position: absolute;
+  color: #444;
+  margin-top: 280px;
+  width: 12%;
+  margin-left: 400px;
+}
+.input-8-6 {
+  position: absolute;
+  color: #444;
+  margin-top: 280px;
+  margin-left: 545px;
+  width: 9%;
+  padding: 3px;
+}
+.input-8-7 {
+  position: absolute;
+  color: #444;
+  margin-top: 307.5px;
+  margin-left: 310px;
+  width: 11%;
+  padding: 3px;
+}
+.input-8-8 {
+  position: absolute;
+  color: #444;
+  margin-top: 307.5px;
+  margin-left: 450px;
+  width: 9%;
+  padding: 3px;
+}
+
+.input-9 {
+  position: absolute;
+  color: #444;
+  margin-top: 335px;
+  margin-left: 310px;
+  width: 13%;
+  padding: 3px;
+}
+
+.input-10-1 {
+  position: absolute;
+  color: #444;
+  margin-top: 365px;
+  margin-left: 310px;
+  width: 3.5%;
+  padding: 3px;
+}
+.input-10-2 {
+  position: absolute;
+  color: #444;
+  margin-top: 365px;
+  margin-left: 357.5px;
+  width: 9%;
+  padding: 3px;
+}
+.input-10-3 {
+  position: absolute;
+  color: #444;
+  margin-top: 365px;
+  margin-left: 467.5px;
+  width: 14%;
+  padding: 3px;
+}
+
+.input-11-1 {
+  position: absolute;
+  color: #444;
+  margin-top: 395px;
+  margin-left: 310px;
+  width: 3.5%;
+  padding: 3px;
+}
+.input-11-2 {
+  position: absolute;
+  color: #444;
+  margin-top: 395px;
+  margin-left: 357.5px;
+  width: 9%;
+  padding: 3px;
+}
+.input-11-3 {
+  position: absolute;
+  color: #444;
+  margin-top: 395px;
+  margin-left: 467.5px;
+  width: 14%;
+  padding: 3px;
+}
+
+.input-12 {
+  position: absolute;
+  color: #444;
+  margin-top: 425px;
+  margin-left: 455px;
+  width: 12%;
+  padding: 3px;
+}
+
+.input-13 {
+  position: absolute;
+  color: #444;
+  margin-top: 475px;
+  margin-left: 310px;
+  width: 20%;
+  padding: 3px;
+}
+
+.input-14 {
+  position: absolute;
+  color: #444;
+  margin-top: 510px;
+  margin-left: 310px;
+  width: 20%;
+  padding: 3px;
+}
+
+.input-15 {
+  position: absolute;
+  color: #444;
+  margin-top: 545px;
+  margin-left: 310px;
+  width: 20%;
+  padding: 3px;
+}
+
+.input-16 {
+  position: absolute;
+  color: #444;
+  margin-top: 430px;
+  margin-left: 800px;
+  width: 8%;
+  padding: 3px;
+}
+.input-17 {
+  position: absolute;
+  color: #444;
+  margin-top: 430px;
+  margin-left: 900px;
+  width: 17.25%;
+  padding: 3px;
+}
+
+.input-18 {
+  position: absolute;
+  color: #444;
+  margin-top: 470px;
+  margin-left: 800px;
+  width: 25.5%;
+  padding: 3px;
+}
+
+.input-email {
+  position: absolute;
+  color: #444;
+  margin-top: 435px;
+  margin-left: 310px;
+  width: 21.5%;
+  padding: 3px;
+}
+
+.input-image {
+  position: absolute;
+  color: #444;
+  margin-top: 170px;
+  margin-left: 820px;
+  width: 8%;
+  color: orange;
+  /* background-color: orange; */
+  text-emphasis-color: orange;
+  padding: 3px;
+}
+
+body {
+  position: relative;
+  margin: 0;
+  padding: 0;
+  font-family: "Montserrat", sans-serif;
+  box-sizing: border-box;
+}
+
+.yuvak-table {
+  position: absolute;
+  top: 150px;
+  border-radius: 6px;
+  left: 150px;
+  font-weight: 600;
+  height: 40%;
+  background: white;
+}
+
+.yuvak-table-head > th {
+  font-size: 18px;
+  padding: 0px;
+  font-weight: 400;
+  color: #c04000;
+  /* background: linear-gradient(to bottom right, #c04000, #cc7722); */
+  background-color: transparent;
+  overflow-y: auto;
+  border-bottom: #cc7722 2px solid;
+}
+
+.yuvak-table-data {
+  font-size: 17px;
+  font-weight: 400;
+  color: #c04000;
+  text-align: center;
+  border-bottom: 1px solid #fbbf77;
+  /* border-radius: 5px; */
+  padding: 0px;
+  margin: 0px;
+}
